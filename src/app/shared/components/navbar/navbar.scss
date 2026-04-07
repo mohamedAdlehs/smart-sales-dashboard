@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e293b; // لون احترافي غامق
+  color: white;
+  padding: 0.5rem 2rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+    a {
+      color: #cbd5e1;
+      text-decoration: none;
+      transition: color 0.3s;
+      &:hover { color: #38bdf8; }
+    }
+  }
+
+  .user-status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+    .status-dot {
+      width: 10px;
+      height: 10px;
+      background-color: #4ade80;
+      border-radius: 50%;
+    }
+  }
+}
