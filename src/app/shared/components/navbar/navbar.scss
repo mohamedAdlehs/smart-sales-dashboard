@@ -40,4 +40,9 @@
       border-radius: 50%;
     }
   }
+  .active-link {
+  color: #38bdf8 !important; // اللون السماوي للرابط النشط
+  border-bottom: 2px solid #38bdf8;
+  padding-bottom: 5px;
+}
 }
